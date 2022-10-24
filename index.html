@@ -1,1 +1,14 @@
-Hello
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <button id="myButton" class="float-left submit-button">Go</button>
+    </body>
+   
+    <script type="text/javascript">
+        document.getElementById("myButton").onclick = function () {
+            location.href = "https://connect.garmin.com/payment/verify/web";
+        };
+    </script>
+</html>
